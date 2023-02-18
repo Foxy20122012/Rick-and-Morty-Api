@@ -1,5 +1,5 @@
 import '../styles/globals.css';
-import Navbar from '../components/Navbar/Navbar'
+
 
 export default function RootLayout({ children }) {
   return (
@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
       */}
       <head />
       <body>
-        <Navbar/>
+        
         {children}
         </body>
     </html>

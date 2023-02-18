@@ -5,10 +5,8 @@ import React, {useState, useEffect} from 'react';
 
 
 import Card from "../components/Card/Card";
-
 // let api = `https://rickandmortyapi.com/api/character/?page=1`
-
-console.log();
+import { useHasMounted } from '../hooks/useHasMounted';
 
 const Home =()=>{
 
