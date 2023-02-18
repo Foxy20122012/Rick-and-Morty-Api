@@ -7,7 +7,7 @@ const NavPerson =(props)=>{
 
   return(
     <header className=''>
-      <h2 className='text-white text-center '>Page:{props.page}</h2>
+      <h2 className='text-white text-center '>Page:{props.page+1}</h2>
       <div className='text-center'>
         <button className='text-white m-10 bg-black border border-y-8 rounded '
         onClick={()=> props.setPage(props.page -1)}
